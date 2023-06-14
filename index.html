@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outside">
+        <h1 style="text-shadow: 4px 3px 2px green;">CALCULATOR</h1>
+    <div class="space"><input type="text" id="output" placeholder="0"></div><br>
+        <div class="firstrow">
+            <button onclick="document.getElementById('output').value =''"><b>AC</b></button>
+            <button onclick="document.getElementById('output').value +='**'"><b>**</b></button>
+            <button onclick="document.getElementById('output').value +='%'"><b>%</b></button>
+            <button onclick="document.getElementById('output').value +='/'" style="background-color: green; padding: 15px 20px; color: white;"><b>/</b></button>
+        </div><br>
+        <div class="secondrow">
+            <button onclick="document.getElementById('output').value +='7'"><b>7</b></button>
+            <button onclick="document.getElementById('output').value +='8'"><b>8</b></button>
+            <button onclick="document.getElementById('output').value +='9'"><b>9</b></button>
+            <button onclick="document.getElementById('output').value +='*'" style="background-color: green; padding: 15px 17px; color: white;">X</button>
+        </div><br>
+        <div class="thirdrow">
+            <button onclick="document.getElementById('output').value +='4'"><b>4</b></button>
+            <button onclick="document.getElementById('output').value +='5'"><b>5</b></button>
+            <button onclick="document.getElementById('output').value +='6'"><b>6</b></button>
+            <button onclick="document.getElementById('output').value +='-'" style="background-color: green; padding: 15px 17px; color: white;"><b>-</b></button>
+        </div><br>
+        <div class="fourthrow">
+            <button onclick="document.getElementById('output').value +='1'"><b>1</b></button>
+            <button onclick="document.getElementById('output').value +='2'"><b>2</b></button>
+            <button onclick="document.getElementById('output').value +='3'"><b>3</b></button>
+            <button onclick="document.getElementById('output').value +='+'" style="background-color: green; padding: 15px 16px; color: white;"><b>+</b></button>
+        </div><br>
+        <div class="fifthrow">
+            <button onclick="document.getElementById('output').value +='0'" style="padding-right: 80px; border-radius: 50px; margin-right: 23px;"><b>0</b></button>
+            <button onclick="document.getElementById('output').value +='.'"><b>.</b></button>
+            <button onclick="document.getElementById('output').value= eval(document.getElementById('output').value )" style="background-color: green; padding: 15px 18px; color: white;"><b>=</b></button>
+        </div>
+        </div><br>
+    </div>
+    <script>
+    </script>
+</body>
+</html>

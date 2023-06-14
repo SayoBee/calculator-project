@@ -1,0 +1,77 @@
+.firstrow button{
+    border: 3px solid gainsboro;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.outside{
+    border: 5px solid green;
+    border-radius: 30px;
+    width: 25%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: larger;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 3px 5px 1px rgb(97, 84, 84);
+}
+.space input{
+    border: none;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.secondrow button{
+    border: 3px solid gainsboro;
+    background-color: rgb(67, 67, 67);
+    padding: 19px;
+    border-radius: 50%;
+    margin-right: 12px;
+    color: white;
+}
+.thirdrow button{
+    border: 3px solid gainsboro;
+    background-color: rgb(67, 67, 67);
+    padding: 19px;
+    border-radius: 50%;
+    margin-right: 13px;
+    color: white;
+
+}
+.fourthrow button{
+    border: 3px solid gainsboro;
+    background-color: rgb(67, 67, 67);
+    padding: 19px;
+    border-radius: 50%;
+    margin-right: 13px;
+    color: white;
+}
+.fifthrow button{
+    border: 3px solid gainsboro;
+    background-color: rgb(67, 67, 67);
+    padding: 19px;
+    border-radius: 50%;
+    margin-right: 12px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) 
+
+{
+    .outside{
+        width: 100%;
+        margin: 0;
+        /* padding: ; */
+    }
+    button{
+        margin: 0;
+        padding: 0;
+    }
+    .space input{
+        width: 100%;
+    }
+    h2{
+        width: 100%;
+    }
+}
