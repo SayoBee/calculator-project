@@ -60,16 +60,16 @@
 
 {
     .outside{
-        width: 100%;
-        margin: 0;
-        /* padding: ; */
+        width: 60%;
+        margin:0;
+        padding-right:7px;
     }
     button{
         margin: 0;
         padding: 0;
     }
     .space input{
-        width: 100%;
+        width: 95%;
     }
     h2{
         width: 100%;
